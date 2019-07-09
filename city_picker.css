@@ -1,0 +1,74 @@
+
+.chose{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    top: 0;
+    display: none;
+}
+.chose_hh{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 392px;
+    background-color: #FFF;
+    overflow:hidden;
+}
+.chose .close{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    color: #333;
+    background-color: #f3f2f8;
+}
+.chose .close .close_A{
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin: 12px 10px;
+    background-image: url("./chose_close.png");
+    background-size: 100% 100%;
+}
+.chose_hh .chose_title{
+    padding: 0 10px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 0;
+}
+.chose_hh .chose_title .active{
+    color: #e4393c;
+    border-bottom: solid 1px #e4393c;
+}
+.chose_hh .chose_title span{
+    display: inline-block;
+    font-size: 14px;
+}
+.chose_hh .chose_title ul{
+    display: inline-block;
+    font-size: 0;
+}
+.chose_hh .chose_title li{
+    display: inline-block;
+    margin-right:10px;
+    font-size: 14px;
+    line-height: 42px;
+}
+
+.chose_list{
+    height: 300px;
+    padding: 5px 10px;
+    overflow-y: scroll;
+    display: none;
+}
+.chose_list li{
+    line-height: 40px;
+    font-size: 14px;
+}
+.chose_list li.active{
+    color: #e4393c;
+}
